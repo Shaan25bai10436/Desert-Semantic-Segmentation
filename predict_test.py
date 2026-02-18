@@ -12,7 +12,7 @@ DEVICE = torch.device("cpu")
 NUM_CLASSES = 6
 MODEL_PATH = "segmentation_model_full.pth"
 
-TEST_IMAGE_DIR = r"C:\Users\Lenovo\OneDrive\Desktop\desert_segmentation\data\Offroad_Segmentation_Training_Dataset\test\Color_Images"
+TEST_IMAGE_DIR = r"C:\Users\Lenovo\OneDrive\Desktop\Desert-Semantic-Segmentation\data\Offroad_Segmentation_Training_Dataset\test\Color_Images"
 OUTPUT_DIR = "test_predictions"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -53,3 +53,4 @@ for img_name in sorted(os.listdir(TEST_IMAGE_DIR)):
 
 print("Test inference completed.")
 print("Predicted masks saved in:", OUTPUT_DIR)
+
