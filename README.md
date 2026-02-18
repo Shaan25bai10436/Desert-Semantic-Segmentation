@@ -143,7 +143,7 @@ No metrics are computed on the test set.
 
 ---
 
-## 10. Visualization (Optional)
+## 10. Visualization
 
 To visualize predictions on a single test image:
 
@@ -168,11 +168,6 @@ Install required packages using:
 pip install torch torchvision opencv-python numpy matplotlib
 ```
 
-(Optional, for frontend demo)
-
-```bash
-pip install streamlit
-```
 
 ---
 
